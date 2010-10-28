@@ -1,0 +1,9 @@
+CROSS_HOST="i686-pc-linux-gnu"
+ORIG_PN="libxcb"
+inherit cross
+
+DESCRIPTION="X Protocol C-Language Bindings runtime"
+HOMEPAGE="http://xcb.sourceforge.net/"
+SRC_URI="http://xcb.freedesktop.org/dist/${ORIG_PN}-${PV}.tar.bz2"
+
+CYGCONF_ARGS="--disable-build-docs"
